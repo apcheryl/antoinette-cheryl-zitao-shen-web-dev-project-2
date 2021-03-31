@@ -1,0 +1,14 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  height: 800px;
+}
+
+.game-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
