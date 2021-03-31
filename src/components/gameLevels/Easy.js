@@ -34,24 +34,24 @@ const Easy = (props) => {
             <h1>Congratulations!</h1>
           </div>
         ) : (
-          <div>
+          <div className="board-space">
             <Board />
           </div>
         )}
         <div>
-          <div className="game-row">
-            <div className="general-padding">
+          <div className="row game-row">
+            <div className=" col-sm general-padding">
               <button
-                className="btn btn-primary btn-lg pad"
+                className="btn btn-danger btn-lg pad"
                 onClick={() => dispatch(reset())}
               >
                 Reset
               </button>
             </div>
-            <div className="general-padding">
+            <div className="col-sm general-padding">
               {cardBoard.length <= 18 ? (
                 <button
-                  className="btn btn-primary btn-lg pad"
+                  className="btn btn-info btn-lg pad"
                   onClick={() => dispatch(addThreeCard())}
                   disabled={check}
                 >
