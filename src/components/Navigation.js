@@ -7,8 +7,8 @@ const Navigation = () => {
   const dispatch = useDispatch();
   return (
     <div className="nav">
-      <div className="nav-row">
-        <div className="col">
+      <div className="row nav-row">
+        <div className="col-sm col">
           <Link to="/">
             <button
               type="button"
@@ -19,14 +19,14 @@ const Navigation = () => {
             </button>
           </Link>
         </div>
-        <div className="col">
+        <div className="col-sm col">
           <img
             className="nav-image"
             src="/images/set_cards.png"
             alt="Set Card"
           />
         </div>
-        <div className="col">
+        <div className="col-sm col">
           <Link to="/rules">
             <button
               type="button"

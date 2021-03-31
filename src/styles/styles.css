@@ -16,8 +16,9 @@
   justify-content: flex-start;
   background-color: aliceblue;
   border: 3px solid lightblue;
-  height: 750px;
+  /* height: 750px; */
   padding: 10px;
+  overflow-y: scroll;
 }
 
 .text-left {
